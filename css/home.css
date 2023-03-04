@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img,
+picture,
+video * {
+    width: 100%;
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+header {
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+
+
+
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-container>nav {
+    display: flex;
+    align-items: center;
+}
+
+#nav-container>nav>a {
+    margin-right: 1.5rem;
+}
+
+#nav-container>nav>ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+#nav-container>nav>ul>li {
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+#sub-list-container > ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem
+}
+
+header > #search-container{
+    position: absolute;
+    top: 6rem;
+    position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 60%;
+        border-radius: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        align-items: center;
+box-shadow: 1px 1px 8px #888888;
+background-color: white;
+}
+
+#search-container> button{
+    border-radius: 50%;
+    border: none;
+}
+
+#main-content{
+    padding: 3rem 7rem;
+}
+
+#places-container{
+    margin-top: 4rem;
+}
+#places-container>h1{
+    margin: 1rem 0;
+}
+
+#places-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+#sign-up-container > h1{
+margin: 2rem 0
+}
+
+#sign-up-cards-container{
+    display: flex;
+}
+
+
+
+
+footer {
+    padding: 1rem;
+    background-color: #F8F9FA;
+}
+
+#footer-content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#legal-content-container {
+    display: flex;
+    font-size: 0.8rem;
+    gap: 1rem;
+}
+
+#socials-container {
+    display: flex;
+    gap: 1.2rem;
+}

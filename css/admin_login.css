@@ -16,7 +16,7 @@ video * {
 
 html,
 body {
-    height: 100vh;
+    height: 100%;
 }
 
 main {
@@ -84,7 +84,7 @@ form {
 
     all: unset;
     width: 100%;
-    background-color: #29C3E5;
+    background-color: #EC7735FF;
     border-radius: 0.4rem;
     color: white;
     text-align: center;
@@ -111,12 +111,11 @@ form {
     padding: 1rem;
     margin-bottom: 1rem;
     background-color: #F3F4F6;
-    border-radius: 0.6rem;
 }
 
 
 #social-container {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 #social-container>p {
