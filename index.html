@@ -4,98 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/manage_stories.css" />
+    <link rel="stylesheet" href="/css/edit_story.css" />
     <title>Document</title>
   </head>
   <body>
-    <main>
-      <div id="sign-up-wrapper">
-        <aside id="dash-side-menu">
-          <div id="logo-container">
-            <img src="/assets/logo.png" alt="site logo" />
-            <div id="title-container">
-              <span id="main-title">Story Telling App</span>
-              <span>Manage Stories</span>
-            </div>
-          </div>
-          <div id="user-info-card">
-            <section id="main-user-info">
-              <img
-                src="/assets/Avatar.png"
-                alt="user proile image"
-                id="user-proile-image"
-              />
-              <span>Jay Rutherford</span>
-              <span>UI/UX Designer</span>
-              <span>Incididunt dolore ut aliquip culpa mollit c</span>
-              <div id="skills-list-container">
-                <div class="skill-item">UX Research</div>
-                <div class="skill-item">UI Design</div>
-                <div class="skill-item">Web Design</div>
-              </div>
-            </section>
-            <section>
-              <span>Profile Link</span>
-              <div>https://www.storytellingapp..com/username</div>
-            </section>
-            <section>
-              <span>Connect</span>
-              <div></div>
-            </section>
-
-            <button>Edit Profile</button>
-          </div>
-        </aside>
-        <div id="dash-content">
-          <h1>Name-On Story Telling App</h1>
-          <div id="edit-stories-container">
-            <span>Manage Stories</span>
-            <div><button>Add New Stories</button><button>Share</button></div>
-          </div>
-          <h2>All Stories</h2>
-
-          <table>
-            <thead>
-              <tr>
-                <th>Post Id</th>
-                <th>Post Title</th>
-                <th>Date Published</th>
-                <th>Total Views</th>
-                <th>No of Comments</th>
-                <th>Ratings</th>
-                <th>Status</th>
-                <th>Edit</th>
-                <th>Delete</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Sample Post Title</td>
-                <td>2023-02-28</td>
-                <td>100</td>
-                <td>5</td>
-                <td>4.5</td>
-                <td>Published</td>
-                <td><button>Edit</button></td>
-                <td><button>Delete</button></td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Another Post Title</td>
-                <td>2023-03-01</td>
-                <td>50</td>
-                <td>2</td>
-                <td>3.0</td>
-                <td>Draft</td>
-                <td><button>Edit</button></td>
-                <td><button>Delete</button></td>
-              </tr>
-              <!-- more rows here -->
-            </tbody>
-          </table>
+    <header id="primary-header">
+      <div id="nav-container">
+        <nav>
+          <a href="#">
+            <img src="assets/logo_image.png" alt="" id="logo-image" />
+          </a>
+        </nav>
+        <div id="sub-list-container">
+          <ul>
+            <li>
+              <img src="/assets/chat_dots.png" alt="" class="nav-items" />
+            </li>
+            <li><img src="/assets/bell.png" alt="" class="nav-items" /></li>
+            <li><img src="/assets/Avatar.png" alt="" class="nav-items" /></li>
+            <li>
+              <img src="/assets/caret_down.png" alt="" class="nav-items" />
+            </li>
+          </ul>
         </div>
       </div>
-    </main>
+    </header>
+    <div id="page-container">
+      <aside id="side-menu">
+        <div>Post or Stories Info</div>
+        <ul>
+          <li>General post information</li>
+          <li>Change Category</li>
+          <li>Change Location</li>
+          <li>Edit Media</li>
+          <li>Save as draft or Unpubilsh</li>
+          <li>Delete Story</li>
+        </ul>
+      </aside>
+      <main>
+        <h1>Post or Story Information</h1>
+        <label for="">Edit Title</label>
+        <input
+          type="text"
+          placeholder="Enter your psot title, no mroe thatn 80 characters"
+        />
+        <label for="">Edit Story</label>
+        <input type="text" />
+
+        <div id="basic-features"></div>
+        <div></div>
+        <div id="upload-images-container"></div>
+      </main>
+      <div id="publish-options">right</div>
+    </div>
   </body>
 </html>
