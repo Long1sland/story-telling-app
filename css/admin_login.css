@@ -59,6 +59,13 @@ header #logo-image {
     width: 6rem;
 
 }
+.headerleft{
+    float: left;
+    visibility: hidden;
+    }
+    .headerright{
+      float: right;
+      }
 
 @media only screen and (max-width: 970px) {
     #form-image-container {
