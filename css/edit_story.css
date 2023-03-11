@@ -71,8 +71,43 @@ width: 1.5rem
     padding: 2rem;
 }
 
+aside {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.menu-item>img {
+    flex: 1;
+}
+
+.menu-item>button {
+    flex: 5;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: white;
+    text-align: left;
+    padding: 1rem;
+}
+
+.menu-item>button:hover {
+    background-color: #D8F4FA;
+    color: #368B9E;
+    font-weight: 600;
+
+
+
+}
+
 main{
-background-color: red;
+padding: 1rem;
 }
 
 #side-menu{
@@ -81,5 +116,63 @@ background-color: red;
 }
 
 #publish-options{
-background-color: blue;
+border: 2px solid #F3F4F6;
+border-radius: 0.8rem;
+padding: 1rem;
+display: flex;
+flex-direction: column  ;
+}
+
+#draft{
+background-color: #FEF6F1;
+padding: 0.2rem 1rem;
+color: #EC7735;
+font-size: 0.7em;
+border-radius: 1rem;
+}
+
+#publish-options>button{
+    border: none;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+}
+
+
+#edit-post-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#edit-post-container> input,textarea{
+    border:none;
+    background-color: #F3F4F6;
+    padding: 1rem 0.5rem;
+}
+#edit-post-container> textarea{
+    height: 20rem;
+}
+
+
+.publish-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+
+#save-button{
+    background-color: #29C3E5;
+color: white;
+}
+
+#revert-button{
+    color: #117389;
+background-color: #F1FBFD;
+}
+#delete-button{
+    background-color: #F3F4F6;
+    color: #565E6C;
+
 }
