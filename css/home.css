@@ -85,6 +85,9 @@ background-color: white;
 #main-content{
     padding: 3rem 7rem;
 }
+section{
+    margin-bottom: 4rem;
+}
 
 #places-container{
     margin-top: 4rem;
@@ -106,7 +109,41 @@ margin: 2rem 0
 
 #sign-up-cards-container{
     display: flex;
+  
 }
+
+#sign-up-cards{
+    display: flex;
+    gap: 3rem;
+    height: 30rem;
+    color: white;
+}
+
+
+
+
+#card-content-container-1{
+    
+    background-image: url('/assets/stock_image1.png');
+    padding: 1rem;
+}
+#card-content-container-2{
+    background-image: url('/assets/stock_image2.png');
+    padding: 1rem;  
+}
+
+#card-content-container-1 >button, #card-content-container-2>button{
+background-color: blue;
+color:white;
+border: none;
+padding: 0.8rem 2rem;
+border-radius: 0.5rem
+}
+#card-content-container-1 >span, #card-content-container-2>span{
+font-size: 2rem;
+display: block;
+}
+
 
 
 
