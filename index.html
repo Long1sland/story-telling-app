@@ -4,105 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/edit_profile.css" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/home.css" />
   </head>
   <body>
-    <header id="primary-header">
-      <div id="nav-container">
-        <nav>
-          <a href="#">
-            <img src="assets/logo_image.png" alt="" id="logo-image" />
-          </a>
-          <ul>
-            <li><a href="">Place to stay</a></li>
-            <li><a href="">Experiences</a></li>
-            <li><a href="">Discover</a></li>
-          </ul>
-        </nav>
-        <div id="sub-list-container">
-          <ul>
-            <li>
-              <img src="/assets/chat_dots.png" alt="" class="nav-items" />
-            </li>
-            <li><img src="/assets/bell.png" alt="" class="nav-items" /></li>
-            <li><img src="/assets/Avatar.png" alt="" class="nav-items" /></li>
-            <li>
-              <img src="/assets/caret_down.png" alt="" class="nav-items" />
-            </li>
-          </ul>
+    <main>
+      <header id="primary-header">
+        <div id="nav-container">
+          <nav>
+            <a href="">
+              <img src="assets/logo_image.png" alt="" id="logo-image" />
+            </a>
+            <ul>
+              <li>Places to see</li>
+              <li>Experiences</li>
+              <li>Discover</li>
+            </ul>
+          </nav>
+          <div id="sub-list-container">
+            <ul>
+              <li>Find People</li>
+              <li>Review</li>
+              <li>Community</li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </header>
-    <div id="page-content-container">
-      <aside>
-        <h1>Edit Profile</h1>
-        <div class="menu-item">
-          <img src="/assets/Icons/avatar_icon.png" alt="" /><button>
-            Personal Info
+        <div id="search-container">
+          <div>Location</div>
+          <div>Find People</div>
+          <div>Write or See</div>
+          <button id="search-button">
+            <img src="/assets/search_button.png" alt="search button image" />
           </button>
         </div>
-        <div class="menu-item">
-          <img src="/assets/Icons/card_icon.png" alt="" /><button>
-            Category/Job Specialization
-          </button>
-        </div>
-        <div class="menu-item">
-          <img src="/assets/Icons/slider_icon.png" alt="" /><button>
-            Interests/Preferences
-          </button>
-        </div>
-        <div class="menu-item">
-          <img src="/assets/Icons/bag_icon.png" alt="" /><button>
-            Profile Links
-          </button>
-        </div>
-        <div class="menu-item">
-          <img src="/assets/Icons/bell_icon.png" alt="" /><button>
-            Notifications
-          </button>
-        </div>
-      </aside>
-      <main>
-        <div id="user-info-container">
-          <div id="user-image-container">
-            <img src="/assets/Avatar.png" alt="" />
+      </header>
+      <div id="main-content">
+        <img src="/assets/main_home_img.png" alt="" />
+        <section id="places-container">
+          <h1>A SIGNATURE OF EXCELLENCE</h1>
+          <div id="places-content">
             <div>
-              <p>Screen Name</p>
-              <p>Jimmy Scott</p>
+              <img src="/assets/place1.png" alt="" />
+              <p>New York</p>
+              <span>2,345 properties . 746 miles away</span>
+            </div>
+            <div>
+              <img src="/assets/place2.png" alt="" />
+              <p>Maldives</p>
+              <span>2,345 properties . 746 miles away</span>
+            </div>
+            <div>
+              <img src="/assets/place3.png" alt="" />
+              <p>Bhutan</p>
+              <span>2,345 properties . 746 miles away</span>
+            </div>
+            <div>
+              <img src="/assets/place4.png" alt="" />
+              <p>Amsterdam</p>
+              <span>2,345 properties . 746 miles away</span>
             </div>
           </div>
-          <div id="button-container">
-            <button id="cancel-button">Cancel</button>
-            <button id="save-button">Save</button>
+        </section>
+
+        <section>
+          <h2>Awaken to a different world</h2>
+          <div id="sign-up-cards">
+            <div id="card-content-container-1">
+              <span> You have got Amazing stories to tell?</span
+              ><button>Sign Up Now!</button>
+            </div>
+
+            <div id="card-content-container-2">
+              <span>Discover great and amazing stories and places</span
+              ><button>Sign Up Now!</button>
+            </div>
           </div>
-        </div>
-        <div id="edit-info-container">
-          <label for="email">Email</label>
-          <input type="text" name="email" />
-          <label for="">Your Cannot Switch Category</label>
-          <select name="cars" id="cars">
-            <option value="male">Story Seeker</option>
-            <option value="female">Story Teller</option>
-          </select>
-          <label for="">First Name</label>
-          <input type="text" />
-          <label for="">LastName</label>
-          <input type="text" />
-          <label for="">Phone Number</label>
-          <input type="text" />
-          <label for="">Gender Select</label>
-          <select name="cars" id="cars">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select>
-          <label for="">Date of Birth</label>
-          <input type="text" />
-          <label for="">Emergency Contact</label>
-          <input type="text" />
-        </div>
-      </main>
-    </div>
+        </section>
+      </div>
+    </main>
     <footer>
       <div id="footer-content-container">
         <div id="legal-content-container">
