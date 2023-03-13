@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/edit_story.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="primary-header">
+      <div id="nav-container">
+        <nav>
+          <a href="#">
+            <img src="assets/logo_image.png" alt="" id="logo-image" />
+          </a>
+        </nav>
+        <div id="sub-list-container">
+          <ul>
+            <li>
+              <img src="/assets/chat_dots.png" alt="" class="nav-items" />
+            </li>
+            <li><img src="/assets/bell.png" alt="" class="nav-items" /></li>
+            <li><img src="/assets/Avatar.png" alt="" class="nav-items" /></li>
+            <li>
+              <img src="/assets/caret_down.png" alt="" class="nav-items" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="page-container">
+      <aside id="side-menu">
+        <h2>Post or Stories Info</h2>
+        <div class="menu-item">
+          <img src="/assets/Icons/avatar_icon.png" alt="" /><button>
+            Story Seeker Dashboard
+          </button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/Icons/card_icon.png" alt="" /><button>
+            Favourite Stories
+          </button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/Icons/slider_icon.png" alt="" /><button>
+            Viewed Stories
+          </button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/Icons/bag_icon.png" alt="" /><button>
+            Insights & Analytics
+          </button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/Icons/bell_icon.png" alt="" /><button>
+            Likes and Shares
+          </button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/Icons/bell_icon.png" alt="" /><button>
+            Manage Feedback and Reviews
+          </button>
+        </div>
+      </aside>
+      <main>
+        <h1>Post or Story Information</h1>
+        <section id="edit-post-container">
+          <label for="">Edit Title</label>
+          <input
+            type="text"
+            placeholder="Enter your post title, no more than 80 characters"
+          />
+          <label for="">Edit Story</label>
+          <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+        </section>
+
+        <section id="basic-features">
+          <h2>Add Basic Features and Amenities</h2>
+          <div id="features-container">
+            <span>Canopy</span>
+            <span>Parking Space</span>
+            <span>Restaurant</span>
+            <span>Wifi</span>
+          </div>
+        </section>
+        <section>
+          <span></span>
+        </section>
+        <div id="upload-images-container">
+          <input type="file" name="call me" id="" />
+        </div>
+      </main>
+      <div id="publish-options">
+        <h2>Publish</h2>
+        <div class="publish-item">
+          <span>Status</span>
+          <div id="draft">Draft</div>
+        </div>
+        <div class="publish-item">
+          <span>Publish</span>
+          <span>- - - -</span>
+        </div>
+        <button id="delete-button">Delete this story</button>
+        <button id="revert-button">Revert to draft</button>
+        <button id="save-button">Save</button>
+      </div>
+    </div>
+  </body>
+</html>
