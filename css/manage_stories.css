@@ -26,18 +26,22 @@ main {
 #sign-up-wrapper {
     display: flex;
     height: inherit;
-   
+
 }
 
-#dash-content{
-    flex:3;
+#dash-content {
+    flex: 3;
     background-color: white;
     padding: 1rem;
-     
-   
+
+
 }
 
-#dash-content > #edit-stories-container{
+section {
+    margin-bottom: 1rem;
+}
+
+#dash-content>#edit-stories-container {
 
     display: flex;
     justify-content: space-between;
@@ -46,15 +50,16 @@ main {
 
 }
 
-#dash-content > h1{
+#dash-content>h1 {
     margin-bottom: 4rem;
 }
 
 #dash-content>h2 {
     margin-bottom: 4rem;
 }
-#dash-content > table{
-    width:100%;
+
+#dash-content>table {
+    width: 100%;
     text-align: center;
 }
 
@@ -64,57 +69,124 @@ main {
     background-color: #AFE6F3;
     padding: 1rem;
     display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-   
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
 
-#logo-container{
+#logo-container {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-#logo-container > img{
+#logo-container>img {
     width: 3rem;
 }
 
 
 
-#user-info-card{
-background-color: white;
-border-radius: .5rem;
+#user-info-card {
+    background-color: white;
+    border-radius: .5rem;
 }
 
-#title-container{
+#title-container {
     display: flex;
     flex-direction: column;
 }
 
-#title-container > #main-title{
-font-size: 1.5rem;
-font-weight: 800;
+#title-container>#main-title {
+    font-size: 1.5rem;
+    font-weight: 800;
 
 }
 
-#user-info-card{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 1rem;    
+#user-info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
 }
 
-#user-info-card >#user-info-image{
+#user-info-card>#user-info-image {
     border-radius: 50%;
 }
 
-#main-user-info{
-display: flex;
-flex-direction: column;
-align-items: center;
+#main-user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#main-user-info>img {    
-width: 10rem;
+#main-user-info>img {
+    width: 10rem;
+}
+
+#skills-list-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.skill-item {
+    background-color: #F3F4F6;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.3rem;
+
+}
+
+#profile-link {
+    background-color: #F3F4F6;
+    padding: 0.2rem 0.4rem;
+}
+
+#edit-profile-button {
+    color: white;
+    padding: 0.5rem 4rem;
+    font-size: 1rem;
+    background-color: #29C3E5;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+#connections-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+#connections-container>img {
+    width: 9rem;
+
+}
+
+#connections-section {
+    width: 100%;
+}
+
+#add-new-story {
+    background-color: #F3F4F6;
+    border: none;
+    padding: 0.4rem 1rem;
+    margin-right: 1rem;
+}
+
+#share-button {
+    background-color: #29C3E5;
+    border: none;
+    color: white;
+    padding: 0.4rem 1rem;
+
+}
+
+
+.status-container {
+    background-color: #EEFDF3;
+    color: #117B34;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    padding: 0.2rem;
 }
