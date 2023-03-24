@@ -25,9 +25,13 @@
                 alt="user proile image"
                 id="user-proile-image"
               />
-              <span>Jay Rutherford</span>
+              <span style="color: #29c3e5; font-size: 1.2rem; font-weight: 600"
+                >Jay Rutherford</span
+              >
               <span>UI/UX Designer</span>
-              <span>Incididunt dolore ut aliquip culpa mollit c</span>
+              <span style="color: #9095a0"
+                >Incididunt dolore ut aliquip culpa mollit c</span
+              >
               <div id="skills-list-container">
                 <div class="skill-item">UX Research</div>
                 <div class="skill-item">UI Design</div>
@@ -36,26 +40,37 @@
             </section>
             <section>
               <span>Profile Link</span>
-              <div>https://www.storytellingapp..com/username</div>
+              <div id="profile-link">
+                https://www.storytellingapp..com/username
+              </div>
             </section>
-            <section>
+            <section id="connections-section">
               <span>Connect</span>
-              <div></div>
+              <div id="connections-container">
+                <img src="/assets/avatar-group.png" alt="connections" />
+                <span>+50 Connections</span>
+              </div>
             </section>
 
-            <button>Edit Profile</button>
+            <button id="edit-profile-button">
+              <img src="" alt="" />
+              Edit Profile
+            </button>
           </div>
         </aside>
         <div id="dash-content">
           <h1>Name-On Story Telling App</h1>
           <div id="edit-stories-container">
             <span>Manage Stories</span>
-            <div><button>Add New Stories</button><button>Share</button></div>
+            <div>
+              <button id="add-new-story">Add New Stories</button
+              ><button id="share-button">Share</button>
+            </div>
           </div>
           <h2>All Stories</h2>
 
-          <table>
-            <thead>
+          <table style="border-spacing: 0 2em">
+            <thead style="background: #fafafb">
               <tr>
                 <th>Post Id</th>
                 <th>Post Title</th>
@@ -76,7 +91,7 @@
                 <td>100</td>
                 <td>5</td>
                 <td>4.5</td>
-                <td>Published</td>
+                <td><div class="status-container">Completed</div></td>
                 <td><button>Edit</button></td>
                 <td><button>Delete</button></td>
               </tr>
@@ -87,7 +102,7 @@
                 <td>50</td>
                 <td>2</td>
                 <td>3.0</td>
-                <td>Draft</td>
+                <td><div class="status-container">Completed</div></td>
                 <td><button>Edit</button></td>
                 <td><button>Delete</button></td>
               </tr>
