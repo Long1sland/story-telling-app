@@ -87,10 +87,6 @@ section{
 
 
 
-#user-info-card {
-    background-color: white;
-    border-radius: .5rem;
-}
 
 #title-container {
     display: flex;
@@ -103,27 +99,27 @@ section{
 
 }
 
-#user-info-card {
+#analytics-data-container {
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 3rem;
+}
+
+.analytics-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    border: 1px solid #F3F4F6;
+    border-radius: 0.8rem;
     padding: 1rem;
 }
 
-#user-info-card>#user-info-image {
-    border-radius: 50%;
+.analytics-item>img {
+    width: 2rem;
 }
 
-#main-user-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.analytics-item:first-child>img {
+    width: 100%;
 }
-
-#main-user-info>img {
-    width: 10rem;
-}
-
 .nav-link-container{
     list-style-type: none;
     margin-bottom: 1rem;
